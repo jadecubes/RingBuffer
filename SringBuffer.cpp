@@ -1,6 +1,6 @@
 //Author: jadecubes by MIT Licence
 
-#include "ringBuffer/SringBuffer.h"
+#include "SringBuffer.h"
 //distance between wi to buttom
 unsigned int RingWBDistance(SRingBuffer *RingBuffer){
 	return (RingBuffer->MaxLen - RingBuffer->wi);
